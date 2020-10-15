@@ -1,2 +1,6 @@
-# c_cpp
-Repo de practicas C y Cpp
+# Practice repository
+
+### Current languages
+
+* C
+* C++
