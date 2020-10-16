@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// ESTRUCTURAS Y APUNTADORES
+
 struct Vector
 {
     float x, y, z;
