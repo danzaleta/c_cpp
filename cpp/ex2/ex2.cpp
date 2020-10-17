@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 2. APUNTADORES
+// 2. Uso de apuntadores
 
 int main()
 {

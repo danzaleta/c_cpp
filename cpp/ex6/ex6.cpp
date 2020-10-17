@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// 6. EJEMPLO DE USO DE switch
+// 6. Consicional switch
 
 int main()
 {

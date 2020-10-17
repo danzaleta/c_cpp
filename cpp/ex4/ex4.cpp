@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 4. EJEMPLO DE USO DE if
+// 4. Condicional if
 
 int main()
 {

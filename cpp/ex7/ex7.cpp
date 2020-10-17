@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 7. EJEMPLO DE funciones
+// 7. Funciones
 
 void Message()
 {
