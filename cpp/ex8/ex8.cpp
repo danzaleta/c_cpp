@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 8. EJEMPLO DE funciones con parametros
+// 8. Funciones con parametros
 
 void Print (string message, int temp)
 {

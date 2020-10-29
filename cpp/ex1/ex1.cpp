@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ESTRUCTURAS Y APUNTADORES
+// 1. Estructuras y apuntadores
 
 struct Vector
 {

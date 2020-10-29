@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 9. EJEMPLO DE arreglos
+// 9. Arrays
 
 /* 
 Nota cuando ponemos un limite a un array (por ejemplo 5 espacios) y declaramos 6, muchos lenguajes

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 3. EJEMPLO DE ENTRADA DE DATOS DEL USUARIO
+// 3. Entrada de datos de usuario
 
 int main()
 {

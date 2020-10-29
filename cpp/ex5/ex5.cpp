@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 5. EJEMPLO DE USO DE if-else
+// 5. Condicional if-else
 
 int main()
 {
