@@ -10,6 +10,7 @@ int main()
 
     cout<< "Introduce la base de tu rectangulo:  " <<endl;
     cin>> base;
+    
 
     cout<< "Introduce la altura de tu rectangulo: " <<endl;
     cin>> altura;
