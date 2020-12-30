@@ -1,0 +1,1 @@
+printf("Recorrido: %d \n", i+1);
