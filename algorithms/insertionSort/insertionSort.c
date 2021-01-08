@@ -4,15 +4,17 @@
 /* Función de insertion Sort*/
 void insertionSort(int arr[], int n) 
 { 
-   int i, currentVal, j; 
+   int i, currentVal, j;
+   
    for (i = 1; i < n; i++) 
    { 
        currentVal= arr[i]; //obtenemos el valor actual a comparar
        j = i-1;
-  
+
        /* mueve los elementos del arreglo arr[0..i-1],que son mayores que el valor de la posición actual del recorrido, a una posición adelante de su posición actual */
        while (j >= 0 && arr[j] > currentVal) 
        { 
+           // la comparacion se hace elemento por elemento, pero en direccion contrara al bubble sort por ejemplo (bubble sort avanzaba hacia delante, este hacia atras)
            arr[j+1] = arr[j]; 
            j = j-1; 
            printArray(arr, n);
