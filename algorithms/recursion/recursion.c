@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-long fact(int n)
+long result;
+int n;
+
+long factorial(int n)
 {
     if (n == 0)
     {
@@ -9,13 +12,25 @@ long fact(int n)
     }
     else
     {
-        return(n * fact(n-1));
+        return(n * factorial(n-1));
     }
 }
 
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    printf("Calcula el factorial de: \n");
+    scanf("%d", &n);
+
+    if (n < 0)
+    {
+        printf("El numero debe ser positivo!");
+    }
+    else
+    {
+        result = factorial(n);
+        printf("%d! = %ld", n, result);
+    }
+
     return 0;
 }
