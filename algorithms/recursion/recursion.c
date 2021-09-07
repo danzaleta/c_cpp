@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
     else
     {
         result = factorial(n);
-        printf("%d! = %ld", n, result);
+        printf("%d! = %ld \n", n, result);
     }
 
     return 0;
